@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "notion-jekyll-theme"
+  spec.name          = "jetson-jekyll-theme"
   spec.version       = "0.1.0"
   spec.authors       = ["David Herman"]
   spec.email         = ["david.herman@gmail.com"]
 
-  spec.summary       = "Jekyll theme for https://www.notionjs.com."
-  spec.homepage      = "https://github.com/notion-cli/jekyll-theme"
+  spec.summary       = "Jekyll theme for https://jetson.sh."
+  spec.homepage      = "https://github.com/jetson-cli/jekyll-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
