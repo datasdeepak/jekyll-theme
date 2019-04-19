@@ -8,6 +8,7 @@ $color-secondary-dark: hsl(345, 25%, 25%);
 $color-primary-very-light: hsl(210, 40%, 93%);
 $code-bg-color: #262626; // match the syntax-highlighting
 $arrow-bg-color: #ccc;
+$dark-text-color: #2c3e50;
 
 // layout
 $navbar-height: 3.6rem;
@@ -19,6 +20,7 @@ $link-shift: 0.2em;
 // responsive breakpoints
 $media-narrow: 959px;
 $media-mobile: 719px;
+$media-min-wide: 720px;
 $media-mobile-narrow: 419px;
 
 // code
