@@ -385,7 +385,6 @@ footer {
     color: $dark-text-color;
 
     .footer-contents {
-      margin: 0 4rem;
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
@@ -420,6 +419,10 @@ footer {
 
 @media (min-width: $media-min-wide) {
   footer {
+    .footer-contents {
+      margin: 0 4rem;
+    }
+
     .community-container {
       flex-basis: fill;
     }
@@ -433,6 +436,7 @@ footer {
 @media (max-width: $media-mobile) {
   footer {
     .footer-contents {
+      margin: 0;
       flex-direction: column;
 
       .community-container {
